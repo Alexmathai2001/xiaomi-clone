@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+
+header{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+}
+.header-content ,div,p,img{
+    padding-left: 50px;
+    
+}
+.header-content ,div,p :first-child{
+    padding-left: 0px;
+    
+}
+
+.home{
+    width: 100%;
+    height: 600px;
+    background-image: url(images/home.jpg);
+    background-position:  center center;
+    background-size: cover;
+
+}
+.home-content h1,h4{
+    padding-left: 50px;
+
+}
+
+.home-content{
+    padding: 200px 100px;
+}
+.home-content h4{
+    padding-top: 60px;
+}
+
+.section-1{
+    width: 1443px;
+    height: 1040px;
+    background-color: #f7f7f7;
+    padding: 0 80px;
+}
+
+.section1-content{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+}
+.section1-content h2{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.box{
+    padding: 20px;
+    height: 700px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.box1{
+    display: flex;
+    gap: 20px;
+}
+.firstbox1{
+    height: 345px;
+    width:697px;
+    background-image: url(images/leica.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.firstbox2{
+    height: 345px;
+    width:697px;
+    padding-bottom: 30px;
+       
+}
+.firstbox2 img{
+    padding-top: 60px;
+    padding-left: 30px;
+}
+.pro13{
+    padding-left: 130px;
+}
+.pro13 h3{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.h3p{
+    padding-left: 80px;
+    padding-top: 40px;
+}
+.box2{
+    display: flex;
+    gap: 20px;
+    
+}
+.box4{
+    height: 277px;
+    width: 338px;
+    background-color: #f7f7f7;
+    
+
+}
+
+.image{
+    height: 180px;
+    width: 180px;
+
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    padding-left: 75px;
+}
+.smallbox{
+    padding-left: 90px;
+}
+.smallbox p{
+    padding-left: 0px;
+}
+
+.explore{
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.feature-box{
+    height: 277px;
+    width: 338px;
+    background-color: #f7f7f7;
+    font-size: 15px;
+}
+
+.feature-box P{
+    padding-left: 0;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 75px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.feature-container{
+    display: flex;
+    gap: 20px;
+}
+
+.explore h1{
+    padding-bottom: 30px;
+}
+
+footer{
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 60px 90px;
+    color: white;
+    
+}
+
+footer td{
+    padding-left: 250px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+    
+}
+.table-head{
+    color: white;
+    text-decoration: solid;
+    font-weight: 700;
+}
+
+footer td:first-child{
+    padding-left: 0px;
+}
+
+.social-icons{
+    display: flex;
+}
+
+.social-icons svg{
+    padding: 10px;
+}
+
+.footer-right h3{
+    padding-bottom: 25px;
+}
+
+.formbox {
+    background-color: transparent;
+    height: 45px;
+    color: white;
+    width: 300px;
+    border: 1px white solid;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.footer-content{
+    display: flex;
+}
+
+.footer-right{
+    padding-left: 150px;
+}
